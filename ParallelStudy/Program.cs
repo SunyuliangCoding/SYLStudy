@@ -10,10 +10,11 @@ namespace ParallelStudy
     {
         static void Main(string[] args)
         {
-           // ForEachAndForAll.TestForAll(30);
-           // ForEachAndForAll.TestForEach();
-            ForEachAndForAll.TestForAll(10);
-            ForEachAndForAll.TestForAllNoLimit();
+            // ForEachAndForAll.TestForAll(30);
+            // ForEachAndForAll.TestForEach();
+            //ForEachAndForAll.TestForAll(10);
+            //ForEachAndForAll.TestForAllNoLimit();
+            ForeachAndStaticFunc.TestStaticFunc();
             Console.WriteLine("操作完成");
             Console.ReadKey();
 
