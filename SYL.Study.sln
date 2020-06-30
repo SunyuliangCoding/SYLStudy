@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyException", "StudyExce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelStudy", "ParallelStudy\ParallelStudy.csproj", "{3EAE9A60-12B3-4E60-8C2F-BE7181569EDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadStudy", "ThreadStudy\ThreadStudy.csproj", "{C24CD209-EAAF-43E0-97EA-5E54F41CF60C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadStudy", "ThreadStudy\ThreadStudy.csproj", "{C24CD209-EAAF-43E0-97EA-5E54F41CF60C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadMaxNumber", "ThreadMaxNumber\ThreadMaxNumber.csproj", "{BF563880-938F-4969-8B71-71372331AA51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{C24CD209-EAAF-43E0-97EA-5E54F41CF60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C24CD209-EAAF-43E0-97EA-5E54F41CF60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C24CD209-EAAF-43E0-97EA-5E54F41CF60C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF563880-938F-4969-8B71-71372331AA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF563880-938F-4969-8B71-71372331AA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF563880-938F-4969-8B71-71372331AA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF563880-938F-4969-8B71-71372331AA51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{A5A5DC6E-A2A2-407C-AB3B-5947B010C730} = {19502D31-DEB3-4134-BAC8-BC5350EB5796}
 		{3EAE9A60-12B3-4E60-8C2F-BE7181569EDA} = {3265BF7C-495A-4D1A-BCC3-4802AF963F79}
 		{C24CD209-EAAF-43E0-97EA-5E54F41CF60C} = {3265BF7C-495A-4D1A-BCC3-4802AF963F79}
+		{BF563880-938F-4969-8B71-71372331AA51} = {3265BF7C-495A-4D1A-BCC3-4802AF963F79}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B54F11FB-E606-416B-985C-C15934FFB294}
