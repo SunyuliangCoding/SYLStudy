@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadStudy", "ThreadStudy\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadMaxNumber", "ThreadMaxNumber\ThreadMaxNumber.csproj", "{BF563880-938F-4969-8B71-71372331AA51}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DumpStudy", "DumpStudy", "{E6EB4E36-84B4-4D2E-B6BF-BD3C69D9BBB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestError1", "TestError1\TestError1.csproj", "{A09F0806-DED1-4CF3-9E53-0199131A4055}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,10 @@ Global
 		{BF563880-938F-4969-8B71-71372331AA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF563880-938F-4969-8B71-71372331AA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF563880-938F-4969-8B71-71372331AA51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09F0806-DED1-4CF3-9E53-0199131A4055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09F0806-DED1-4CF3-9E53-0199131A4055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09F0806-DED1-4CF3-9E53-0199131A4055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09F0806-DED1-4CF3-9E53-0199131A4055}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +54,7 @@ Global
 		{3EAE9A60-12B3-4E60-8C2F-BE7181569EDA} = {3265BF7C-495A-4D1A-BCC3-4802AF963F79}
 		{C24CD209-EAAF-43E0-97EA-5E54F41CF60C} = {3265BF7C-495A-4D1A-BCC3-4802AF963F79}
 		{BF563880-938F-4969-8B71-71372331AA51} = {3265BF7C-495A-4D1A-BCC3-4802AF963F79}
+		{A09F0806-DED1-4CF3-9E53-0199131A4055} = {E6EB4E36-84B4-4D2E-B6BF-BD3C69D9BBB1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B54F11FB-E606-416B-985C-C15934FFB294}
