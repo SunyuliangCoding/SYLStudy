@@ -10,7 +10,9 @@ namespace Question1
     {
         static void Main(string[] args)
         {
-            
+            UserInfo.PrintUserInfo();
+            Console.WriteLine("结束");
+            Console.ReadKey();
         }
     }
     public class UserInfo
@@ -18,6 +20,7 @@ namespace Question1
         private readonly int _id;
         private readonly string _name;
         private readonly string _email;
+        
 
         public int id { get { return _id; } }
         public string name { get { return _name; } }
@@ -30,9 +33,20 @@ namespace Question1
             _name = name;
             _email = email;
         }
-        private static void PrintUserInfo()
+        static UserInfo()
         {
             var userinfo = new UserInfo(1, "aa", "bb@qq.com");
+            var task = Task.Run(() =>
+            {
+                var a = new UserInfo(2, "bb", "bb@qq.com");
+                Console.WriteLine(a.id + a.name + a.email);
+            });
+            task.Wait();
+        }
+        public static void PrintUserInfo()
+        {
+            var userinfo = new UserInfo(1, "aa", "aa@qq.com");
+
             Console.WriteLine(userinfo.id + userinfo.name + userinfo.email);
         }
     }
