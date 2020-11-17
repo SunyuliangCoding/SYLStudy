@@ -18,13 +18,11 @@ namespace ThreadContextStudy
 
             Task.Run(() =>
             {
-                Task.Run(() =>
-                {
-                    var value1 = CallContext.LogicalGetData("key1");
-                    var value2 = CallContext.GetData("key2");
-                    Console.WriteLine($"value1:{value1},value2:{value2}");
-                });
+                var value1 = CallContext.LogicalGetData("key1");
+                var value2 = CallContext.GetData("key2");
+                Console.WriteLine($"value1:{value1},value2:{value2}");
             });
+
             Console.ReadKey();
         }
     }
